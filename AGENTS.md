@@ -2,11 +2,9 @@
 
 Local playground: **Harbor** on a **KinD** Kubernetes cluster, plus a tiny stdlib-only Python app (no pip deps) pushed to Harbor and deployed via kubectl/Helm.
 
-## Migration in progress
+## Migration complete
 
-Work follows **`backlog.md`** (Phases 0→6): bump from Kind `v0.17` / K8s `1.26` / Harbor `2.8` to the target stack below. Prefer implementing backlog items in order; do not invent alternate versions.
-
-Until a phase is done, `Makefile` / `hack/install.sh` may still show old or unpinned values — **target below is canonical**; sync code to match as you execute each phase.
+`backlog.md` (Phases 0→6) records the finished bump from Kind `v0.17` / K8s `1.26` / Harbor `2.8` to the stack below; `Makefile` and `hack/` match it. Do not invent alternate versions without updating docs together. Harbor active-active work lives in the separate `harbor-active-active-on-kind` repo, not here.
 
 ## Layout
 
