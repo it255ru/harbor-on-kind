@@ -93,9 +93,7 @@ Setup image vulnarability scanning for the project:
 
 <img src="pictures/harbor-project-python-hello-configure-scan.png?raw=true" width="1000">
 
-Download `python` project REGISTRY CERTIFICATE locally (ca.crt file):
-
-<img src="pictures/harbor-project-python-registry-certificate-download.png?raw=true" width="1000">
+Download `python` project REGISTRY CERTIFICATE locally (ca.crt file)
 
 ### Fast path: `make deploy-app`
 
